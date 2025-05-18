@@ -1,0 +1,215 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Hero Section: Why This Website -->
+<section class="py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-center">
+    <div class="container mx-auto px-4">
+        <h1 class="text-5xl font-extrabold mb-4 animate-fade-in">Discover Thoughtful Gifts with GiftGenix</h1>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Struggling to find the perfect gift? Our AI-powered tool generates creative, personalized suggestions for any occasion in seconds.</p>
+        <a href="#suggestion-tool" class="inline-block bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition duration-300 animate-pulse">Try It Now</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-indigo-800 mb-12">Why Choose GiftGenix?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 animate-slide-in">
+                <i class="fas fa-brain text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">AI-Powered Suggestions</h3>
+                <p class="text-gray-600">Leverage advanced AI to get unique, tailored gift ideas instantly.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 animate-slide-in">
+                <i class="fas fa-bolt text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Lightning Fast</h3>
+                <p class="text-gray-600">Get suggestions in seconds, no matter the occasion.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 animate-slide-in">
+                <i class="fas fa-paint-brush text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Beautiful Design</h3>
+                <p class="text-gray-600">Enjoy a sleek, user-friendly interface that makes gift planning fun.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technologies Section: What We Used -->
+<section class="py-16 bg-gray-200">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-indigo-800 mb-12">Built with Cutting-Edge Technology</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                <i class="fab fa-python text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Django</h3>
+                <p class="text-gray-600">A robust Python framework for fast, secure, and scalable web development.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                <i class="fas fa-paint-roller text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Tailwind CSS</h3>
+                <p class="text-gray-600">A utility-first CSS framework for modern, responsive designs.</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300">
+                <i class="fas fa-robot text-4xl text-indigo-600 mb-4"></i>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Gemini API</h3>
+                <p class="text-gray-600">Google’s AI API for generating creative and intelligent gift suggestions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-16 bg-gradient-to-b from-gray-100 to-gray-200">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-indigo-800 mb-12">What Our Users Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-lg animate-fade-in">
+                <p class="text-gray-600 italic mb-4">"GiftGenix made my mom’s birthday unforgettable with a perfect gift idea!"</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold">A</div>
+                    <div class="ml-4">
+                        <p class="text-gray-800 font-semibold">Alice M.</p>
+                        <p class="text-gray-500 text-sm">Happy Customer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg animate-fade-in">
+                <p class="text-gray-600 italic mb-4">"So easy to use, and the suggestions were spot-on for my friend’s wedding!"</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold">B</div>
+                    <div class="ml-4">
+                        <p class="text-gray-800 font-semibold">Bob R.</p>
+                        <p class="text-gray-500 text-sm">Event Planner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg animate-fade-in">
+                <p class="text-gray-600 italic mb-4">"I found unique gifts for everyone on my list in minutes!"</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold">C</div>
+                    <div class="ml-4">
+                        <p class="text-gray-800 font-semibold">Clara T.</p>
+                        <p class="text-gray-500 text-sm">Gift Enthusiast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="py-16 bg-indigo-700 text-white text-center">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-4">Ready to Find the Perfect Gift?</h2>
+        <p class="text-xl mb-8 max-w-xl mx-auto">Start exploring creative gift ideas tailored to your needs.</p>
+        <a href="#suggestion-tool" class="inline-block bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition duration-300 animate-pulse">Get Started</a>
+    </div>
+</section>
+
+<!-- Gift Suggestion Tool -->
+<section id="suggestion-tool" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-indigo-800 mb-8">Generate Your Gift Ideas</h2>
+        <div class="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-2xl transform hover:scale-105 transition duration-300">
+            <div id="error-message" class="hidden text-red-500 mb-4 text-center font-medium"></div>
+            <div class="mb-6">
+                <label for="prompt" class="block text-indigo-700 font-semibold mb-2 text-lg">Describe Your Gift Idea</label>
+                <textarea id="prompt" rows="5" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-200" placeholder="e.g., I want to gift my mom on her birthday"></textarea>
+            </div>
+            <button id="generate-btn" class="w-full bg-indigo-600 text-white p-3 rounded-lg hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 transition duration-300 font-semibold">Generate Suggestions</button>
+            <div id="suggestions" class="mt-8 hidden">
+                <h3 class="text-2xl font-semibold text-indigo-800 mb-4">Gift Suggestions</h3>
+                <ul id="suggestions-list" class="list-disc pl-6 text-gray-700 space-y-2"></ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Animation Script for Scroll Effects -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-10');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.animate-slide-in, .animate-fade-in').forEach(el => {
+        el.classList.add('opacity-0', 'translate-y-10');
+        observer.observe(el);
+    });
+});
+</script>
+
+<script>
+document.getElementById('generate-btn').addEventListener('click', async () => {
+    const prompt = document.getElementById('prompt').value.trim();
+    const suggestionsDiv = document.getElementById('suggestions');
+    const suggestionsList = document.getElementById('suggestions-list');
+    const errorMessage = document.getElementById('error-message');
+
+    if (!prompt) {
+        errorMessage.textContent = 'Please enter a gift idea.';
+        errorMessage.classList.remove('hidden');
+        suggestionsDiv.classList.add('hidden');
+        return;
+    }
+
+    errorMessage.classList.add('hidden');
+    suggestionsList.innerHTML = '<li class="text-gray-500">Loading...</li>';
+    suggestionsDiv.classList.remove('hidden');
+
+    try {
+        const response = await fetch('/suggestion/generate/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': getCSRFToken(),
+            },
+            body: JSON.stringify({ prompt }),
+        });
+
+        const data = await response.json();
+        console.log('API response:', data);
+        suggestionsList.innerHTML = '';
+
+        if (response.ok && data.suggestions && data.suggestions.length) {
+            data.suggestions.forEach(suggestion => {
+                const li = document.createElement('li');
+                li.textContent = suggestion;
+                li.className = 'text-gray-700';
+                suggestionsList.appendChild(li);
+            });
+        } else {
+            errorMessage.textContent = data.error || 'No suggestions received.';
+            errorMessage.classList.remove('hidden');
+            suggestionsDiv.classList.add('hidden');
+        }
+    } catch (error) {
+        console.error('Fetch error:', error);
+        errorMessage.textContent = 'Network error. Please try again.';
+        errorMessage.classList.remove('hidden');
+        suggestionsDiv.classList.add('hidden');
+    }
+});
+
+function getCSRFToken() {
+    const name = 'csrftoken';
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+</script>
+{% endblock %}
