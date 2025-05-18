@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv('GEMINI_API_KEY', 'AIzaSyDXCYS1f-9128udpilhmJXkG-I0ypzm3cA'))  # Replace with your key
+genai.configure(api_key=os.getenv('GEMINI_API_KEY'))  # Replace with your key
 
 @ensure_csrf_cookie
 def index(request):

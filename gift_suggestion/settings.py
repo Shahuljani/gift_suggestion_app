@@ -14,7 +14,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '<GiftGenix>.pythonanywhere.com']  # Replace <yourusername>
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '<giftgenix>.pythonanywhere.com']  # Replace <yourusername>
 
 # Application definition
 INSTALLED_APPS = [
@@ -93,7 +93,7 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
-DEFAULT_AUTO_FIELD = 'django.db.backends.BigAutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Gemini API Key
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
